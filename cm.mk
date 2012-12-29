@@ -16,3 +16,10 @@ PRODUCT_NAME := cm_c8812
 PRODUCT_BRAND := huawei
 PRODUCT_MODEL := c8812
 PRODUCT_MANUFACTURER := huawei
+
+#Set build fingerprint / ID / Product Name ect.
+PRODUCT_BUILD_PROP_OVERRIDES += \
+	PRODUCT_NAME=c8812 \
+	BUILD_FINGERPRINT=huawei/c8812:4.2.1/JOP40D/223135:userdebug/release \
+	PRIVATE_BUILD_DESC="huawei-user 4.2.1 JOP40D 223135 release" \
+	BUILD_NUMBER=223135

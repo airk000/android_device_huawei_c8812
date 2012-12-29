@@ -5,6 +5,8 @@ $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
 $(call inherit-product-if-exists, vendor/huawei/c8812/c8812-vendor.mk)
 
+$(call inherit-product, device/huawei/msm7x27a-common/msm7x27a_device.mk)
+
 DEVICE_PACKAGE_OVERLAYS += device/huawei/c8812/overlay
 
 $(call inherit-product, build/target/product/full.mk)
